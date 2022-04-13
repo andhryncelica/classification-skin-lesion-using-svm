@@ -9,7 +9,7 @@ the skin lesions of melanoma using Support Vector Machine.
 
 The framework of the research can be divided into five parts:
 (1) Preparation of the dataset that is used as data input (Dataset was provided by ISIC The International Skin Imaging Collaboration)
-(2) Pre-Processing is the process of creaming the cream component of the hair that is still present in the dermoscopy
+(2) Pre-Processing is the process of removing hair components that are still present in the dermoscopy
 (3) Image Segmentation, searching for the edges of the lesion
 (4) Feature Extraction, parameters to distinguish the two types of lesions, and 
 (5) Classification, the classification process using the support vector machine method of skin lesions whether they are melanocytes or non-melanocytes.
